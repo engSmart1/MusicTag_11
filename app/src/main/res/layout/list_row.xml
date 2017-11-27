@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    android:orientation = "vertical"
+    android:layout_marginStart="39dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/row_background">
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/bandImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:id="@+id/headLinerText"
+        android:textSize="16sp"
+        android:text="HeadLiner"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:layout_below="@+id/bandImage"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/venueText"
+        android:textSize="16sp"
+        android:text="Venue"
+        android:textStyle="italic"
+        android:textColor="#383434"
+        android:layout_below="@+id/headLinerText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/whenText"
+        android:textSize="16sp"
+        android:text="When"
+        android:textStyle="italic"
+        android:textColor="#383434"
+        android:layout_below="@+id/venueText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/whereText"
+        android:textSize="13sp"
+        android:text="When"
+        android:background="#161616"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/venueText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</RelativeLayout>
